@@ -421,8 +421,8 @@ li {
 @media screen and (max-width:500px) {
 
     .webNavbarSection .enter {
-        width: 80px;
-        font-size: 11px;
+        width: 100px;
+        font-size: 10px;
     }
 
     .name h1 {
@@ -433,22 +433,19 @@ li {
         font-size: 8px;
     }
 
-    .webNavbarSection .enter {
-        position: relative;
-        top: -4px;
-    }
-
-
 }
 
 @media screen and (max-width:450px) {
 
     .webNavbarSection .enter {
         width: 70px;
-        font-size: 10px;
+        font-size: 8px;
+        position: relative;
+        top: -4px;
     }
 
     .name h1 {
+        margin: 15px 0 0 0 ;
         font-size: 17px;
     }
 
