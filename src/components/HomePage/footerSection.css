@@ -134,7 +134,7 @@
 
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:768px) {
     .spacee {
         display: none;
     }
@@ -146,12 +146,47 @@
     .aplication p {
         font-size: 11px;
     }
-}
-
-@media screen and (max-width:992px) {
 
     .footerSection img {
         margin: 0 0 3px 0;
     }
 
 }
+
+@media screen and (max-width:500px) {
+
+    .aplication strong{
+        font-size: 8px;
+    }
+
+    .aplication p{
+        font-size: 9px;
+    }
+    
+}
+
+@media screen and (max-width:450px) {
+
+    .footerSection h3 {
+        font-size: 11px;
+    }
+
+    .footerSection img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .footerSection h6 {
+        font-size: 12px;
+    }
+
+    .aplication strong{
+        font-size: 7px;
+    }
+
+    .aplication p{
+        font-size: 8px;
+    }
+    
+}
+

@@ -61,7 +61,7 @@ const Cart = () => {
                                     <div>
                                         <strong>{(product.price * product.quantity).toFixed(2)} $</strong>
                                     </div>
-                                    <div>
+                                    <div className='productImg'>
                                         <img src={product.image} alt='product' />
                                     </div>
                                 </div>

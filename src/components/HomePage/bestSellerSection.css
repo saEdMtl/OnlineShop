@@ -154,6 +154,10 @@
         height: 60%;
     }
 
+    .bestSellerSection .left{
+        height: 300px;
+    }
+
 }
 
 @media screen and (max-width:992px) {

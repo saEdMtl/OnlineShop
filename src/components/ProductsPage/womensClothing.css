@@ -78,3 +78,11 @@
     }
 
 }
+
+@media screen and (max-width:420px) {
+
+    .womensClothingProduct {
+        width: 40% !important;
+    }
+
+}

@@ -219,3 +219,11 @@
 
 
 }
+
+@media screen and (max-width:768px){
+
+    .menClothing h4{
+        font-size: 18px;
+    }
+
+}

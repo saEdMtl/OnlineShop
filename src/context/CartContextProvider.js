@@ -40,7 +40,7 @@ const cartReducer = (state, action) => {
 
         case 'INCREASE':
             const indexI = state.selectedItems.findIndex(item => item.id === action.payload.id)
-            state.selectedItems[indexI].quantity += 1 / 2;
+            state.selectedItems[indexI].quantity ++;
             return {
                 ...state,
                 ...sumItems(state.selectedItems)
@@ -48,7 +48,7 @@ const cartReducer = (state, action) => {
 
         case 'DECREASE':
             const indexD = state.selectedItems.findIndex(item => item.id === action.payload.id)
-            state.selectedItems[indexD].quantity -= 1 / 2;
+            state.selectedItems[indexD].quantity --;
             return {
                 ...state,
                 ...sumItems(state.selectedItems)

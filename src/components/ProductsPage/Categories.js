@@ -23,7 +23,7 @@ const Categories = () => {
                     <li><Link to='/'>صفحه اصلی</Link></li>
                     <li><Link to='/product/mensClothing'>لباس مردانه</Link></li>
                     <li><Link to='/product/womensClothing'>لباس زنانه</Link></li>
-                    <li><Link to='/product/electronics'>لوازم الکترونیکی</Link></li>
+                    <li><Link to='/product/electronics'>الکترونیکی</Link></li>
                     <li><Link to='/product/jewelery'>جواهرات</Link></li>
                 </ul>
             </div>
