@@ -429,6 +429,16 @@ li {
         font-size: 19px;
     }
 
+    .cart h3 {
+        font-size: 8px;
+    }
+
+    .webNavbarSection .enter {
+        position: relative;
+        top: -4px;
+    }
+
+
 }
 
 @media screen and (max-width:450px) {
@@ -442,7 +452,7 @@ li {
         font-size: 17px;
     }
 
-    .hambergurNav{
+    .hambergurNav {
         width: 65px !important;
     }
 
