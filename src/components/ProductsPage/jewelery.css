@@ -1,0 +1,76 @@
+.jewelery {
+    margin: 140px 0 0 0;
+    justify-content: space-between;
+}
+
+.jewelery a {
+    text-decoration: none;
+}
+
+.jeweleryProduct {
+    border: 1px solid #0000003c;
+    padding: 20px;
+    border-radius: 5px;
+    width: 23%;
+    margin: 0 22px 22px 0;
+}
+
+.jewelery .col-lg-3 {
+    width: 23%;
+}
+
+.jeweleryProduct img {
+    width: 100%;
+    height: 150px;
+}
+
+.jeweleryProduct h4 {
+    font-family: estedad;
+    font-size: 18px;
+    color: #046865;
+    font-weight: bold;
+    padding: 10px 10px 0 10px;
+}
+
+.jeweleryProduct p {
+    font-family: estedad;
+    font-size: 14px;
+    color: #e53d00;
+    padding: 10px 10px 0 10px;
+}
+
+@media screen and (max-width:1400px) {
+
+    .jeweleryProduct {
+        width: 22% !important;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+
+    .jeweleryProduct {
+        width: 29% !important;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+
+    .jeweleryProduct {
+        width: 44% !important;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+
+    .jeweleryProduct {
+        width: 43% !important;
+    }
+
+    .jeweleryProduct h4 {
+        font-size: 12px;
+    }
+
+}

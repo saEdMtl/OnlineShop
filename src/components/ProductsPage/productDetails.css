@@ -1,0 +1,191 @@
+.productDetail {
+    position: relative;
+    top: 120px;
+}
+
+.details {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productImage img {
+    width: 100%;
+    height: 400px;
+    margin: 30px 0 0 0;
+}
+
+.productDescription {
+    position: relative;
+    top: 100px;
+    height: 100%;
+}
+
+.productDescription h4 {
+    font-family: estedad;
+    font-weight: bold;
+    color: #046865;
+    font-size: 24px;
+}
+
+.productDescription span {
+    padding: 5px;
+    bottom: 0;
+    margin: 0 0 0 10px;
+}
+
+.productDescription p {
+    font-family: mikhak;
+    font-size: 16px;
+    margin: 25px 0 20px 0;
+}
+
+.price {
+    display: flex;
+    align-items: normal;
+    justify-content: space-between;
+}
+
+.price .increase {
+    width: 30px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #28b9b9;
+    color: #FCFFF7;
+    font-family: mikhak;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price .add {
+    width: 80px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #28b9b9;
+    color: #FCFFF7;
+    font-family: mikhak;
+    font-size: 12px;
+    position: relative;
+}
+
+.price .decrease {
+    width: 30px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #e53d00;
+    color: #FCFFF7;
+    font-family: mikhak;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price .remove {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #e53d00;
+}
+
+.remove img {
+    width: 24px;
+    height: 24px;
+}
+
+.price span {
+    color: #046865;
+    font-family: mikhak;
+    font-size: 16px;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.buttons {
+    margin: 0 0 0 50px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.productDescription h5 {
+    font-family: estedad;
+    font-size: 20px;
+    color: #e53d00;
+    padding: 10px 0 0 0;
+}
+
+.productDescription h6 {
+    font-family: estedad;
+    font-size: 20px;
+    color: #e53d00;
+    padding: 10px 0 0 0;
+}
+
+.productDescription del {
+    font-family: estedad;
+    font-size: 20px;
+    color: #046865;
+}
+
+@media screen and (max-width:768px) {
+
+    .productDescription h4 {
+        font-size: 18px;
+    }
+
+    span {
+        font-size: 11px;
+    }
+
+    .productDescription p {
+        font-size: 13px;
+    }
+
+    .price .add {
+        width: 70px;
+        height: 30px;
+        font-size: 10px;
+        margin: 3px 0 0 0;
+    }
+
+    .productImage img {
+        width: 80%;
+        height: 320px;
+    }
+
+    .productDescription {
+        top: 25px;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+
+    .productDescription h4 {
+        font-size: 15px;
+    }
+
+    span {
+        font-size: 10px;
+    }
+
+    .productDescription p {
+        font-size: 11px;
+    }
+
+    .productImage img {
+        width: 65%;
+        height: 260px;
+    }
+
+    .productDescription {
+        top: 0px;
+    }
+
+    .productDescription h5 {
+        font-size: 16px;
+    }
+
+}

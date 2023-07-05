@@ -1,0 +1,82 @@
+.introduceSection {
+    width: 100%;
+    height: 650px;
+    background-image: url(../../assets/background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    text-align: right;
+    position: relative;
+    top: 115px;
+}
+
+.introduction {
+    width: 100%;
+    height: 200px;
+    text-align: right;
+    padding: 160px 0 0 0;
+}
+
+.introduction h2 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #FCFFF7;
+    font-family: estedad;
+}
+
+.introduction p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #046865;
+    font-family: mikhak;
+}
+
+@media screen and (max-width:1200px) {
+
+    .introduction h2 {
+        font-size: 40px;
+    }
+
+    .introduction p {
+        font-size: 26px;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+
+    .introduceSection {
+        background-image: url(../../assets/background2.png);
+        height: 550px;
+        background-size: cover;
+        top: 90px;
+    }
+
+    .introduction h2 {
+        font-size: 30px;
+    }
+
+    .introduction p {
+        font-size: 20px;
+    }
+
+    .introduceSection .enter {
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    .introduceSection {
+        background-image: url(../../assets/background3.png);
+        margin: 0 0 -40px 0;
+    }
+
+    .introduceSection {
+        height: 510px;
+        top: 0;
+    }
+
+}

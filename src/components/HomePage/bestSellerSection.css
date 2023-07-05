@@ -1,0 +1,176 @@
+.bestSellerSection {
+    margin: 30px 0 40px 0;
+}
+
+.bestSellerSection a {
+    text-decoration: none;
+}
+
+.bestSellerSection h1 {
+    font-family: estedad;
+    font-size: 24px;
+    font-weight: bold;
+    color: #e53d00;
+    text-align: right;
+    padding: 20px;
+}
+
+.bestSellerSection .row {
+    background-color: #28b9b9;
+    padding: 20px 20px 10px 20px;
+    border-radius: 5px;
+}
+
+.bestSellerSection .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.special {
+    background-color: #FCFFF7;
+    padding: 30px 5px 25px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.special img {
+    width: 80%;
+    height: 90%;
+}
+
+.special .caption {
+    width: 75%;
+    text-align: left;
+    margin: 15px 0 0 0;
+}
+
+.special .caption h5 {
+    font-family: estedad;
+    font-size: 24px;
+    font-weight: bold;
+    color: #046865;
+}
+
+.special .caption span {
+    font-family: mikhak;
+    font-size: 11px;
+    color: #e53d00;
+    background-color: transparent;
+    margin: 0 0 0 8px;
+}
+
+.special .caption p {
+    font-family: mikhak;
+    font-size: 20px;
+    font-weight: bold;
+    color: #046865;
+    margin: 0 0 0 2px;
+}
+
+.section {
+    width: 31% !important;
+    background: #FCFFF7;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 18px 20px 0;
+    border-radius: 5px;
+    padding: 25px;
+    justify-content: center;
+}
+
+.section .caption {
+    width: 180px;
+}
+
+.section img {
+    width: 100%;
+    height: 120px;
+}
+
+.section h4 {
+    font-family: estedad;
+    font-size: 16px;
+    font-weight: bold;
+    color: #046865;
+    margin: 10px 0 10px 0;
+}
+
+.section span {
+    font-family: mikhak;
+    font-size: 10px;
+    color: #e53d00;
+    background-color: transparent;
+    margin: 0 0 0 8px;
+}
+
+.section p {
+    font-family: mikhak;
+    font-size: 16px;
+    font-weight: bold;
+    color: #046865;
+    margin: 0 0 0 2px;
+}
+
+@media screen and (max-width:1200px) {
+
+    .section {
+        width: 30% !important;
+    }
+
+    .section .image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section img {
+        width: 85%;
+    }
+
+    .section .caption {
+        width: 147px;
+    }
+
+    .section h4 {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    .bestSellerSection .left {
+        height: 400px;
+    }
+
+    .special img {
+        width: 45%;
+        height: 60%;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+
+    .bestSellerSection h1 {
+        font-size: 20px;
+    }
+
+    .sections {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .section {
+        width: 49% !important;
+        margin: 10px 0 0 0 !important;
+    }
+
+}

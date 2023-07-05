@@ -1,0 +1,175 @@
+.cart {
+    position: relative;
+    top: 150px;
+}
+
+.items {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    border: 1px solid #0468655c;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 0 20px 0;
+}
+
+.cart img {
+    width: 150px;
+    height: 150px;
+}
+
+.cart h3 {
+    font-size: 18px;
+    font-family: estedad;
+    color: #046865;
+}
+
+.cart span {
+    font-size: 12px;
+    font-family: estedad;
+    color: #e53d00;
+    background-color: transparent;
+    padding: 20px;
+}
+
+.cart p {
+    font-size: 12px;
+    font-family: estedad;
+    color: #e53d00;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cart strong {
+    font-size: 16px;
+    font-family: mikhak;
+    color: #046865;
+}
+
+.cart {
+    display: flex;
+    align-items: normal;
+}
+
+.cart .increase {
+    width: 30px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #28b9b9;
+    color: #FCFFF7;
+    font-family: mikhak;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cart .add {
+    width: 80px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #28b9b9;
+    color: #FCFFF7;
+    font-family: mikhak;
+    font-size: 12px;
+}
+
+.cart .decrease {
+    width: 30px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #e53d00;
+    color: #FCFFF7;
+    font-family: mikhak;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cart .remove {
+    width: 39px;
+    height: 39px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #e53d00;
+}
+
+.remove img {
+    width: 20px;
+    height: 20px;
+}
+
+.cart h4 {
+    font-size: 18px;
+    font-family: estedad;
+    color: #046865;
+}
+
+.cart h6 {
+    font-size: 18px;
+    font-family: estedad;
+    color: #046865;
+}
+
+.cart h4 span,
+.cart h6 span {
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: mikhak;
+}
+
+@media screen and (max-width:992px) {
+
+    .cart h3 {
+        font-size: 14px;
+    }
+
+    .cart img {
+        width: 115px;
+        height: 125px;
+    }
+
+    .cart strong {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .buttons {
+        margin: 0;
+    }
+
+    .cart h6,
+    .cart h4 span,
+    .cart h4,
+    .cart h6 span {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+
+    .cart h3 {
+        font-size: 11px;
+    }
+
+    .cart .decrease {
+        width: 25px;
+        height: 30px;
+        padding: 0;
+    }
+
+    .cart .increase {
+        width: 25px;
+        height: 30px;
+        padding: 0;
+    }
+
+    .cart img {
+        width: 80px;
+        height: 100px;
+    }
+
+}

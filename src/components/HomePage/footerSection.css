@@ -1,0 +1,157 @@
+.footerSection {
+    margin: 40px 0 0 0;
+}
+
+.footerSection .contactUs {
+    background-color: #28b9b9;
+    padding: 20px 20px 10px 10px !important;
+    font-family: estedad;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.footerSection h3 {
+    font-weight: bold;
+    color: #FCFFF7;
+    font-size: 18px;
+
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.footerSection img {
+    width: 30px;
+    height: 30px;
+    margin: 0 20px 7px 0;
+}
+
+.footerSection h6 {
+    font-family: estedad;
+    font-size: 16px;
+    color: #e53d00;
+    font-weight: bold;
+}
+
+.right {
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    padding: 40px 0 0 0;
+}
+
+.right li {
+    list-style: none;
+    padding: 10px 0 0 0;
+}
+
+.right a {
+    text-decoration: none;
+    font-family: mikhak;
+    font-size: 14px;
+    color: #046865;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.company {
+    margin: 20px 0 20px 0;
+    padding: 10px;
+    display: flex;
+
+}
+
+.company h3 {
+    font-family: estedad;
+    font-size: 26px;
+    color: #046865;
+    font-weight: bold;
+}
+
+.aplication {
+    padding: 20px 10px 10px 10px;
+    display: flex;
+    background-color: #28b9b9;
+    border-radius: 5px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.aplication strong {
+    font-family: estedad;
+    font-size: 16px;
+    color: #FCFFF7;
+    font-weight: bold;
+}
+
+.aplication p {
+    font-family: estedad;
+    font-size: 14px;
+    color: #e53d00;
+    font-weight: bold;
+}
+
+@media screen and (max-width:992px) {
+
+    .footerSection h3 {
+        font-size: 13px;
+    }
+
+    .footerSection img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .footerSection h6 {
+        font-size: 14px;
+    }
+
+    .right a {
+        font-size: 12px;
+    }
+
+    .company h3 {
+        font-size: 22px;
+    }
+
+    .aplication strong {
+        font-size: 12px;
+    }
+
+    .aplication p {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    .spacee {
+        display: none;
+    }
+
+    .aplication strong {
+        font-size: 10px;
+    }
+
+    .aplication p {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:992px) {
+
+    .footerSection img {
+        margin: 0 0 3px 0;
+    }
+
+}

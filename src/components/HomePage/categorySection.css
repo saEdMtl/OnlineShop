@@ -1,0 +1,221 @@
+.categorySection {
+    margin: 115px 0 50px 0;
+}
+
+.categorySection .row {
+    justify-content: space-between;
+}
+
+.womenClothing,
+.menClothing {
+    height: 500px;
+    border-radius: 5px;
+}
+
+.womenClothing {
+    background-image: url(../../assets/womenclothing.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    text-align: right;
+    width: 32% !important;
+}
+
+.womenClothing h4 {
+    font-size: 28px;
+    font-family: estedad;
+    font-weight: bold;
+    color: #FCFFF7;
+    padding: 80px 5px 15px 0;
+}
+
+.womenClothing a {
+    font-family: mikhak;
+    font-size: 16px;
+    background-color: #FCFFF7;
+    color: #046865;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menClothing {
+    background-image: url(../../assets/menclothing.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    text-align: right;
+    width: 32% !important;
+}
+
+.menClothing h4 {
+    font-size: 28px;
+    font-family: estedad;
+    font-weight: bold;
+    color: #046865;
+    padding: 80px 5px 15px 0;
+}
+
+.menClothing a {
+    font-family: mikhak;
+    font-size: 16px;
+    background-color: #FCFFF7;
+    color: #046865;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+.jewelry,
+.electronic {
+    height: 240px;
+    border-radius: 5px;
+}
+
+.jewelry {
+    background-image: url(../../assets/jewelry.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    text-align: right;
+}
+
+.jewelry h4 {
+    font-size: 24px;
+    font-family: estedad;
+    font-weight: bold;
+    color: #FCFFF7;
+    padding: 60px 25px 8px 0;
+}
+
+.jewelry a {
+    font-family: mikhak;
+    font-size: 14px;
+    background-color: #FCFFF7;
+    color: #046865;
+    border-radius: 5px;
+    padding: 6px;
+    text-decoration: none;
+    margin: 0 25px 0 0;
+}
+
+.electronic {
+    background-image: url(../../assets/electronic.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    text-align: right;
+    margin: 0 0 20px 0;
+}
+
+.electronic h4 {
+    font-size: 20px;
+    font-family: estedad;
+    font-weight: bold;
+    color: #046865;
+    padding: 50px 5px 5px 0;
+}
+
+.electronic a {
+    font-family: mikhak;
+    font-size: 14px;
+    background-color: #FCFFF7;
+    color: #046865;
+    border-radius: 5px;
+    padding: 6px;
+    text-decoration: none;
+    margin: 0 5px 0 0;
+}
+
+.jewelry {
+    margin-top: 20px;
+}
+
+@media screen and (max-width:1200px) {
+
+    .womenClothing h4 {
+        font-size: 18px;
+    }
+
+    .menClothing h4 {
+        font-size: 22px;
+    }
+
+    .menClothing a,
+    .womenClothing a {
+        font-size: 13px;
+    }
+
+    .electronic h4 {
+        font-size: 14px;
+    }
+
+    .electronic a,
+    .jewelry a {
+        font-size: 12px;
+    }
+
+    .jewelry h4 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:992px) {
+
+    .categorySection {
+        margin-top: 35px;
+    }
+
+    .womenClothing h4 {
+        font-size: 16px;
+        padding-right: 0;
+    }
+
+    .menClothing h4 {
+        font-size: 20px;
+    }
+
+    .menClothing a,
+    .womenClothing a {
+        font-size: 11px;
+    }
+
+    .electronic h4 {
+        font-size: 12px;
+    }
+
+    .electronic a,
+    .jewelry a {
+        font-size: 10px;
+    }
+
+    .jewelry h4 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .menClothing,
+    .womenClothing {
+        width: 49% !important;
+        height: 450px;
+        margin: 0 0 10px 0;
+    }
+
+    .second {
+        margin: 10px 0 0 0;
+    }
+
+    .jewelry,
+    .electronic {
+        width: 49% !important;
+    }
+
+
+}

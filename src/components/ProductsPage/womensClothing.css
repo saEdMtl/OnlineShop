@@ -1,0 +1,80 @@
+.womensClothing {
+    margin: 140px 0 0 0;
+    justify-content: space-between;
+}
+
+.womensClothing a {
+    text-decoration: none;
+}
+
+.womensClothingProduct {
+    border: 1px solid #0000003c;
+    padding: 20px;
+    border-radius: 5px;
+    width: 23%;
+    margin: 0 22px 22px 0;
+}
+
+.womensClothing .col-lg-3 {
+    width: 23%;
+}
+
+.womensClothingProduct img {
+    width: 100%;
+    height: 150px;
+}
+
+.womensClothingProduct h4 {
+    font-family: estedad;
+    font-size: 18px;
+    color: #046865;
+    font-weight: bold;
+    padding: 10px 10px 0 10px;
+}
+
+.womensClothingProduct p {
+    font-family: estedad;
+    font-size: 14px;
+    color: #e53d00;
+    padding: 10px 10px 0 10px;
+}
+
+@media screen and (max-width:1400px) {
+
+    .womensClothingProduct {
+        width: 22% !important;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+
+    .womensClothingProduct {
+        width: 29% !important;
+    }
+
+    .womensClothingProduct h4 {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+
+    .womensClothingProduct {
+        width: 44% !important;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+
+    .womensClothingProduct {
+        width: 43% !important;
+    }
+
+    .womensClothingProduct h4 {
+        font-size: 12px;
+    }
+
+}
